@@ -32,3 +32,4 @@
 const text = "alireza";
 const text2 = " nikzad";
 console.log(text.concat(text2)); // alireza nikzad
+console.log(text.concat(" ", text2, " zeidi")); // alireza nikzad
