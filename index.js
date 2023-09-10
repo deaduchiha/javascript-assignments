@@ -29,7 +29,13 @@
 // - - - - - - - - - - -
 
 // concat
-const text = "alireza";
-const text2 = " nikzad";
-console.log(text.concat(text2)); // alireza nikzad
-console.log(text.concat(" ", text2, " zeidi")); // alireza nikzad
+// const text = "alireza";
+// const text2 = " nikzad";
+// console.log(text.concat(text2)); // alireza nikzad
+// console.log(text.concat(" ", text2, " zeidi")); // alireza nikzad
+
+// - - - - - - - - - - -
+
+// trim => remove white spaces
+const text = "  alireza nikzad  ";
+console.log(text.trim());
