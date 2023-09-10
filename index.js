@@ -11,5 +11,13 @@
 // - - - - - - - - - - -
 
 // charAt => find text char with index
-const text = "alireza";
-console.log(text.charAt(0)); // a
+// const text = "alireza";
+// console.log(text.charAt(0)); // a
+
+// - - - - - - - - - - -
+
+// split("") => if we used empty ("") split all characters for us
+// const text = "alireza is developer";
+// console.log(text.split(" ")); // [ 'alireza', 'is', 'developer' ] => based on input char its split our text in an array
+
+// - - - - - - - - - - -
