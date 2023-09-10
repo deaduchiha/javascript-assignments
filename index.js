@@ -37,5 +37,11 @@
 // - - - - - - - - - - -
 
 // trim => remove white spaces
-const text = "  alireza nikzad  ";
-console.log(text.trim());
+// const text = "  alireza nikzad  ";
+// console.log(text.trim());
+
+// - - - - - - - - - - -
+
+// slice
+const text = "Alireza Nikzad";
+console.log(text.slice(0, 4)); // Alir => showing our index of text from first number index to end number index
