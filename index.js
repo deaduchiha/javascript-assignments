@@ -23,5 +23,12 @@
 // - - - - - - - - - - -
 
 // replace => replace our text
-const text = "alireza is developer";
-console.log(text.replace("alireza", "shole")); // shole is developer
+// const text = "alireza is developer";
+// console.log(text.replace("alireza", "shole")); // shole is developer
+
+// - - - - - - - - - - -
+
+// concat
+const text = "alireza";
+const text2 = " nikzad";
+console.log(text.concat(text2)); // alireza nikzad
