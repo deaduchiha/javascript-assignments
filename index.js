@@ -21,3 +21,7 @@
 // console.log(text.split(" ")); // [ 'alireza', 'is', 'developer' ] => based on input char its split our text in an array
 
 // - - - - - - - - - - -
+
+// replace => replace our text
+const text = "alireza is developer";
+console.log(text.replace("alireza", "shole")); // shole is developer
