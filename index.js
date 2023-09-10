@@ -45,3 +45,5 @@
 // slice
 // const text = "Alireza Nikzad";
 // console.log(text.slice(0, 4)); // Alir => showing our index of text from first number index to end number index
+const text = "alireza";
+console.log(text[0].toUpperCase());
