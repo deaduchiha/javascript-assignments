@@ -51,8 +51,8 @@
 // - - - - - - - - - - -
 
 // template literals
-const name = "Alireza";
-const age = 22;
+// const name = "Alireza";
+// const age = 22;
 
-const text = `hello my name is ${name} and im ${age} years old.`;
-console.log(text);
+// const text = `hello my name is ${name} and im ${age} years old.`;
+// console.log(text);
