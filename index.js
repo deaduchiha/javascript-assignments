@@ -60,7 +60,38 @@
 // - - - - - - - - - - -
 
 // how to create array
-const firstArray = [1, 2, 3];
-console.log(firstArray);
-const secondArray = Array(4, 5, 6);
-console.log(secondArray);
+// const firstArray = [1, 2, 3];
+// console.log(firstArray);
+// const secondArray = Array(4, 5, 6);
+// console.log(secondArray);
+
+// const array = [];
+// console.log(array);
+
+const myArray = ["alireza", true, 22, 1, 2, 3];
+// myArray.push("nikzad"); // add one item to array usu PUSH
+// myArray.unshift("nikzad"); // add one item to first of array
+// myArray.pop(); // delete last index of array
+// myArray.shift() //delete first index of array
+// const newArray = myArray.toString(); // change array to string
+// delete myArray[0]; // empty array (not so good)
+// myArray[1] = false; // change a value of array
+// const temp = myArray.join(); // change all to string
+// const temp = myArray.join(""); // change all to string without any spaces
+// const temp = myArray.join("**"); // change all to string and add ** after each index
+// - - - - - -
+// const array1 = [1, 2, 3];
+// const array2 = [4, 5, 6];
+// const newArray = array1.concat(array2); // we can concat array 1 and 2 with each other
+// - - - - - -
+// const array = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+// ]; // nested array
+// const newArray = array.flat(); // sync all nested arrays in one array
+// - - - - - -
+// myArray.indexOf("alireza"); // found index of ...
+// myArray.includes('alireza') // check the ... is include in our array (true - false)
+// const newArray = myArray.slice(3, 6); //showing us index between X until Y
+// const newArray = myArray.splice(1, 2); // for deleting from index X to Y
+console.log();
