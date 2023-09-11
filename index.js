@@ -45,5 +45,14 @@
 // slice
 // const text = "Alireza Nikzad";
 // console.log(text.slice(0, 4)); // Alir => showing our index of text from first number index to end number index
-const text = "alireza";
-console.log(text[0].toUpperCase());
+// const text = "alireza";
+// console.log(text[0].toUpperCase());
+
+// - - - - - - - - - - -
+
+// template literals
+const name = "Alireza";
+const age = 22;
+
+const text = `hello my name is ${name} and im ${age} years old.`;
+console.log(text);
