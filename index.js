@@ -56,3 +56,11 @@
 
 // const text = `hello my name is ${name} and im ${age} years old.`;
 // console.log(text);
+
+// - - - - - - - - - - -
+
+// how to create array
+const firstArray = [1, 2, 3];
+console.log(firstArray);
+const secondArray = Array(4, 5, 6);
+console.log(secondArray);
