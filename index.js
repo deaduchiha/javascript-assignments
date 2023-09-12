@@ -68,7 +68,7 @@
 // const array = [];
 // console.log(array);
 
-const myArray = ["alireza", true, 22, 1, 2, 3];
+// const myArray = ["alireza", true, 22, 1, 2, 3];
 // myArray.push("nikzad"); // add one item to array usu PUSH
 // myArray.unshift("nikzad"); // add one item to first of array
 // myArray.pop(); // delete last index of array
@@ -96,4 +96,14 @@ const myArray = ["alireza", true, 22, 1, 2, 3];
 // const newArray = myArray.splice(1, 2); // for deleting from index X to Y
 // myArray.sort(); // for sort an array [first change to string then sort]
 // myArray.reverse(); // reveres our array
-console.log(myArray);
+// console.log(myArray);
+
+// - - - - - - - - - - -
+// heap and stack memory
+
+// let x = [1, 2, 3];
+// let y = x;
+// x = 5; // Y not changing
+// x.push(4); //changing Y when using this
+// console.log(`x: ${x},\ny: ${y}`);
+// primitive types and references type
