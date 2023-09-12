@@ -94,4 +94,6 @@ const myArray = ["alireza", true, 22, 1, 2, 3];
 // myArray.includes('alireza') // check the ... is include in our array (true - false)
 // const newArray = myArray.slice(3, 6); //showing us index between X until Y
 // const newArray = myArray.splice(1, 2); // for deleting from index X to Y
-console.log();
+// myArray.sort(); // for sort an array [first change to string then sort]
+// myArray.reverse(); // reveres our array
+console.log(myArray);
