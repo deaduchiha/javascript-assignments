@@ -99,11 +99,34 @@
 // console.log(myArray);
 
 // - - - - - - - - - - -
-// heap and stack memory
 
+// heap and stack memory
 // let x = [1, 2, 3];
 // let y = x;
 // x = 5; // Y not changing
 // x.push(4); //changing Y when using this
 // console.log(`x: ${x},\ny: ${y}`);
 // primitive types and references type
+
+// - - - - - - - - - - -
+
+// shallow copy and deep copy
+// let x = 5;
+// const copyX = x;
+// x = 10;
+// now x and copyX have different value
+
+// const data = [1, 2, 3];
+// const copyData = data;
+// data.push(4);
+// same data value
+// console.log(data, copyData);
+
+// - - - - - - - - - - -
+// spread operator
+// const data = [1, 2, 3];
+// const names = ["alireza", "shole"];
+// // const copyData = [...data]; // copy with ....
+// const newArray = [...data, ...names]; // merge two array each other with ...
+// const newArray = ['alireza', ...data, ...names, 100]; // merge two array each other with ...
+// console.log(newArray);
